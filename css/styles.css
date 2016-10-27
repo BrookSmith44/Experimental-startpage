@@ -2,12 +2,12 @@ body {
   border: 0;
   margin: 0;
   padding: 0;
-  background-color: #9fff80;
+  background-color: black;
 }
 .borderoutline{
   width: 96vw;
   height: 96vh;
-  border: 5px solid black;
+  border: 5px solid #9fff80;
   border-radius: 5%;
   position: absolute;
   top: 1%;
