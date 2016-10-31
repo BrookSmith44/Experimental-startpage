@@ -3,15 +3,16 @@ body {
   margin: 0;
   padding: 0;
   background-color: #333;
+  max-height: 100%;
 }
 header {
-  width: 15vw;
+  width: 12%;
   height: 100vh;
   background-color: #9fff80;
 }
 header img {
-width: 10vw;
-height: 10vh;
+width: 70px;
+height: 70px;
 border-radius: 50%;
 display: block;
 margin: auto;
@@ -19,8 +20,12 @@ border: 7px solid #333;
 }
 header h1 {
   text-align: center;
-  font-size: 300%;
+  font-size: 10.5vmin;
   color: #333;
   font-family: 'Noto Sans', sans-serif;
   background-color: #9fff80;
+  margin: 0;
+}
+.b {
+  padding-top: 10px;
 }
