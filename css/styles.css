@@ -5,20 +5,22 @@ body {
   background-color: #333;
   max-height: 100%;
 }
-header {
+/* Sidebar */
+.header {
   width: 12%;
   height: 100vh;
   background-color: #9fff80;
+  position: absolute;
 }
-header img {
-width: 70px;
-height: 70px;
+.header img {
+width: 45%;
+height: auto;
 border-radius: 50%;
 display: block;
 margin: auto;
 border: 7px solid #333;
 }
-header h1 {
+.header h1 {
   text-align: center;
   font-size: 10.5vmin;
   color: #333;
@@ -28,4 +30,40 @@ header h1 {
 }
 .b {
   padding-top: 10px;
+}
+/* End of Sidebar */
+
+/* University/ Work Link Buttons */
+#row1 {
+  margin-left: 15%;
+  width: 26%;
+  display: block;
+}
+button {
+  width: 100%;
+  height: vmin;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 2px solid #9fff80;
+  background-color: #333;
+  font-family: 'Noto Sans', sans-serif;
+  display: inline-block;
+  color: #9fff80;
+  font-size: 2.5vmin;
+  margin-bottom: 10px;
+  transition: 0.5s;
+  transition-timing-function: ease-in;
+}
+button:hover {
+  background-color: #9fff80;
+  color: #333;
+}
+.uniwork {
+  padding-top: 5%;
+}
+.entertainment {
+  padding-top: 5%;
+}
+.sports {
+  padding-top: 5%;
 }
