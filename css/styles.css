@@ -4,6 +4,8 @@ body {
   padding: 0;
   background-color: #333;
   max-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
 }
 .wrapper {
   height: 100vh;
@@ -14,9 +16,9 @@ body {
   height: 100vh;
   margin-left: 12%;
   display: flex;
-  flex-direction: column;
-  flex-flow: row;
-  justify-content:flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 /* Sidebar */
 .nav {
@@ -31,7 +33,7 @@ height: auto;
 border-radius: 50%;
 display: block;
 margin: auto;
-border: 7px solid #333;
+border: 1vmin solid #333;
 }
 .nav h1 {
   text-align: center;
@@ -47,20 +49,19 @@ border: 7px solid #333;
 
 /* End of Sidebar */
 
-/* University/ Work Link Buttons */
+/* Buttons */
 
 section {
-  padding: 5%;
-}
-.column1 {
-margin-left: 1%;
-width: 26%;
-}
-.column2 {
   width: 26%;
+  padding: 1%;
 }
-button {
+.row1 {
+  margin-top: 5%;
+}
+a {
   width: 100%;
+  display: inline-block;
+  text-align: center;
   border-radius: 10px;
   border: none;
   border-bottom: 2px solid #9fff80;
@@ -71,14 +72,9 @@ button {
   margin-bottom: 10px;
   transition: 0.2s;
   transition-timing-function: ease-in;
+  text-decoration: none;
 }
-button:hover {
+a:hover {
   background-color: #9fff80;
   color: #333;
-}
-.uniwork  {
-  padding-top: 35%;
-}
-.social {
-  padding-top: 35%
 }
