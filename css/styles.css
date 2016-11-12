@@ -34,6 +34,10 @@ border-radius: 50%;
 display: block;
 margin: auto;
 border: 1vmin solid #333;
+transition: all 1s;
+}
+.nav img:hover {
+  transform: rotate(360deg) scale(1.2);
 }
 .nav h1 {
   text-align: center;
@@ -58,7 +62,7 @@ section {
 .row1 {
   margin-top: 5%;
 }
-a {
+section a {
   width: 100%;
   display: inline-block;
   text-align: center;
